@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "titulo": "Demian",
+        "autor": "Herman Hesse",
+        "editorial": "Seix Barral",
+        "anio_publicacion": "1925",
+        "genero": "novela",
+        "cantidad_disponible": 1
+    },
+    {
+        "id": 2,
+        "titulo": "Sidartha",
+        "autor": "Herman Hesse",
+        "editorial": "Seix Barral",
+        "anio_publicacion": "1925",
+        "genero": "novela",
+        "cantidad_disponible": 0
+    },
+    {
+        "id": 3,
+        "titulo": "El amor brujo",
+        "autor": "Roberto Arlt",
+        "editorial": "Victoria",
+        "anio_publicacion": "1932",
+        "genero": "Narrativo",
+        "cantidad_disponible": 0
+    },
+    {
+        "id": 4,
+        "titulo": "El gaucho Martin Fierro",
+        "autor": "Jose Hernandez",
+        "editorial": "Imprenta de la Pampa",
+        "anio_publicacion": "1872",
+        "genero": "Gauchesco",
+        "cantidad_disponible": 0
+    },
+    {
+        "id": 5,
+        "titulo": "Uno y el Universo",
+        "autor": "Ernesto Sabato",
+        "editorial": "Seix Barral",
+        "anio_publicacion": "1945",
+        "genero": "Ensayo",
+        "cantidad_disponible": 0
+    },
+    {
+        "id": 6,
+        "titulo": "La invencion de Morel",
+        "autor": "Adolfo Bioy Casares",
+        "editorial": "Losada",
+        "anio_publicacion": "1940",
+        "genero": "Narrativo",
+        "cantidad_disponible": 4
+    },
+    {
+        "id": 7,
+        "titulo": "La metamorfosis",
+        "autor": "Franz Kafka",
+        "editorial": "Kurt Wolff Verlag",
+        "anio_publicacion": "1915",
+        "genero": "Narrativo",
+        "cantidad_disponible": 5
+    },
+    {
+        "id": 8,
+        "titulo": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes Saavedra",
+        "editorial": "Juan de la Cuesta",
+        "anio_publicacion": "1605",
+        "genero": "Novela de aventuras",
+        "cantidad_disponible": 4
+    },
+    {
+        "id": 9,
+        "titulo": "Cosmos",
+        "autor": "Carl Sagan",
+        "editorial": "Random House",
+        "anio_publicacion": "1980",
+        "genero": "Divulgacion cientifica",
+        "cantidad_disponible": 3
+    },
+    {
+        "id": 10,
+        "titulo": "La interpretacion de los suenos",
+        "autor": "Sigmund Freud",
+        "editorial": "Franz Deuticke",
+        "anio_publicacion": "1899",
+        "genero": "Psicologia",
+        "cantidad_disponible": 3
+    },
+    {
+        "id": 11,
+        "titulo": "Republica",
+        "autor": "Platon",
+        "editorial": "EUDEBA",
+        "anio_publicacion": "1985",
+        "genero": "Dialogo",
+        "cantidad_disponible": 2
+    },
+    {
+        "id": 12,
+        "titulo": "Knulp",
+        "autor": "Hermann Hesse",
+        "editorial": "Seix Barral",
+        "anio_publicacion": "1949",
+        "genero": "Novela",
+        "cantidad_disponible": 3
+    },
+    {
+        "id": 14,
+        "titulo": "El Principito ",
+        "autor": "Antoine De Saint - Exupery",
+        "editorial": "El gato de Hojalata",
+        "anio_publicacion": "2017",
+        "genero": "Narrativo",
+        "cantidad_disponible": 3
+    },
+    {
+        "id": 15,
+        "titulo": "La ciudad de barro",
+        "autor": "Alejandro Santamaria ",
+        "editorial": "Ediciones Culturales",
+        "anio_publicacion": "2009",
+        "genero": "Narrativa Moderna",
+        "cantidad_disponible": 4
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombre": "Israel Leonardo",
+        "apellido": "Montiel",
+        "dni": "2345678",
+        "telefono": "34567564",
+        "email": "ilm@gmail.com",
+        "direccion": "Las Acacias 123",
+        "fecha_nacimiento": "2002-09-26"
+    },
+    {
+        "id": 2,
+        "nombre": "Carlos Gustavo",
+        "apellido": "Ortiz",
+        "dni": "54678675",
+        "telefono": "23412345",
+        "email": "cgo@gmail.com",
+        "direccion": "Las Acacias 123",
+        "fecha_nacimiento": "2002-07-20"
+    },
+    {
+        "id": 3,
+        "nombre": "Diego ",
+        "apellido": "Peralta",
+        "dni": "45678875",
+        "telefono": "34453456",
+        "email": "dp@gmail.com",
+        "direccion": "Los Aromos 1543",
+        "fecha_nacimiento": "1987-02-21"
+    },
+    {
+        "id": 4,
+        "nombre": "Agustin",
+        "apellido": "Valverde",
+        "dni": "20021975",
+        "telefono": "45635464",
+        "email": "av@gmail.com",
+        "direccion": "Minuzi 345",
+        "fecha_nacimiento": "1987-02-21"
+    },
+    {
+        "id": 5,
+        "nombre": "Jose",
+        "apellido": " Marlon",
+        "dni": "34234323",
+        "telefono": "34567896",
+        "email": "jm@gmail.com",
+        "direccion": "La Huerta 123",
+        "fecha_nacimiento": "2000-05-20"
+    },
+    {
+        "id": 6,
+        "nombre": "Ana",
+        "apellido": "Genin",
+        "dni": "23456789",
+        "telefono": "45655678",
+        "email": "ag@gmail.com",
+        "direccion": "Los Aromos 567",
+        "fecha_nacimiento": "2024-12-02"
+    },
+    {
+        "id": 7,
+        "nombre": "Carlos",
+        "apellido": "Villanueva",
+        "dni": "22345698",
+        "telefono": "261234567",
+        "email": "cv@gmail.com",
+        "direccion": "Los Tordos 324",
+        "fecha_nacimiento": "1971-12-05"
+    },
+    {
+        "id": 8,
+        "nombre": "Laura",
+        "apellido": "Giardon",
+        "dni": "23456789",
+        "telefono": "26139587",
+        "email": "lg@giardon",
+        "direccion": "Minuzi 345",
+        "fecha_nacimiento": "2000-12-02"
+    },
+    {
+        "id": 9,
+        "nombre": "Diego",
+        "apellido": "Fernandez",
+        "dni": "23456987",
+        "telefono": "26134565",
+        "email": "df@gmail.com",
+        "direccion": "Los Aromos 876",
+        "fecha_nacimiento": "1971-12-04"
+    },
+    {
+        "id": 10,
+        "nombre": "Juan",
+        "apellido": "Cuesta",
+        "dni": "2438769",
+        "telefono": "2394857",
+        "email": "jc@gmail.com",
+        "direccion": "Libia 498",
+        "fecha_nacimiento": "2000-12-23"
+    },
+    {
+        "id": 11,
+        "nombre": "Alvaro",
+        "apellido": "Antun",
+        "dni": "34234566",
+        "telefono": "2345678",
+        "email": "aa@gmail.com",
+        "direccion": "Los Alerces 154",
+        "fecha_nacimiento": "2001-02-12"
+    }
+]
