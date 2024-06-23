@@ -1,1 +1,1 @@
-# Sistema-de-Gesti-n-de-Bibliotecas
+# Sistema-de-Gestión-de-Bibliotecas
