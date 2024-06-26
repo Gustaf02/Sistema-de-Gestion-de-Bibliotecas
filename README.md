@@ -14,6 +14,8 @@ El proyecto está organizado en varios módulos, cada uno de los cuales se encar
 * reportes.py: Genera reportes de préstamos por socio, libro o fecha.
 * notificaciones.py: Envía notificaciones sobre préstamos vencidos.
 * func_aux.py: Incluye funciones auxiliares para cargar, guardar y manejar datos en archivos JSON.
+* inicializacion_json.py: Inicializa los archivos JSON necesarios para el funcionamiento del sistema.
+* interfaz_grafica.py: Proporciona una interfaz gráfica para interactuar con el sistema.
 
 ## 3. Funcionalidades del Proyecto
 ### 3.1 Gestión de Libros
@@ -31,6 +33,11 @@ El proyecto está organizado en varios módulos, cada uno de los cuales se encar
 ### 3.4 Reportes y Notificaciones
 * Generar Reporte: Permite generar reportes de préstamos por socio, libro o fecha.
 * Notificar Vencimientos: Envía notificaciones sobre préstamos vencidos a los socios correspondientes.
+### 3.5 Inicialización de Datos
+* Inicialización de Archivos JSON: El archivo inicializacion_json.py se encarga de crear y estructurar los archivos JSON necesarios para el funcionamiento del sistema, garantizando que se disponga de una base de datos inicial limpia.
+### 3.6 Interfaz Gráfica
+* Interfaz Gráfica del Usuario (GUI): Proporcionada por interfaz_grafica.py, esta interfaz permite a los usuarios interactuar con el sistema de manera más intuitiva, facilitando la realización de las operaciones disponibles en el sistema.
+  
 ## 4. Descripción Técnica del Proyecto
 El proyecto está desarrollado en Python y utiliza archivos JSON para almacenar los datos de libros, socios y préstamos. Las principales operaciones de lectura y escritura en archivos JSON están encapsuladas en funciones auxiliares en el archivo func_aux.py. Esto asegura una gestión eficiente y segura de los datos, facilitando su manipulación y manteniendo la integridad de la información.
 
