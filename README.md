@@ -34,7 +34,7 @@ El proyecto está organizado en varios módulos, cada uno de los cuales se encar
 ## 4. Descripción Técnica del Proyecto
 El proyecto está desarrollado en Python y utiliza archivos JSON para almacenar los datos de libros, socios y préstamos. Las principales operaciones de lectura y escritura en archivos JSON están encapsuladas en funciones auxiliares en el archivo func_aux.py. Esto asegura una gestión eficiente y segura de los datos, facilitando su manipulación y manteniendo la integridad de la información.
 
-Ejemplo, en función Auxiliar:
+Ejemplo, de función auxiliar:
 
 ![image](https://github.com/Gustaf02/Sistema-de-Gestion-de-Bibliotecas/assets/92409193/dba8ad21-070b-4324-b2bd-5fe262e55af5)
 
