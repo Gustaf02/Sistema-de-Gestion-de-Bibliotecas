@@ -50,7 +50,11 @@ Estas funciones permiten cargar y guardar datos de manera eficiente y segura, as
 ## Conclusión
 El proyecto de gestión de bibliotecas es una herramienta integral para la administración de bibliotecas, proporcionando funcionalidades esenciales para la gestión de libros, socios y préstamos. Su estructura modular facilita la expansión y el mantenimiento, mientras que el uso de archivos JSON asegura una gestión eficiente de los datos.
 
+## Integrantes 
+       
+       ┃━ ━📂 \Israel Leonardo Montiel 
 
+       ┃━ ━📂 \Carlos Gustavo Ortiz
 
 
 
