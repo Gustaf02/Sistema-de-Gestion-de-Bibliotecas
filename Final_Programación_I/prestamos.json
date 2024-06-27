@@ -5,7 +5,9 @@
         "id_libro": 1,
         "fecha_prestamo": "2024-04-06",
         "costo": 0.0,
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-05-06",
+        "fecha_devolucion": "2024-05-06",
+        "estado_prestamo": "Devuelto"
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "id_libro": 1,
         "fecha_prestamo": "2024-06-22",
         "costo": 0.0,
-        "fecha_devolucion": "2024-06-26"
+        "fecha_devolucion_prevista": "2024-06-26",
+        "fecha_devolucion": "2024-06-30",
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "id_libro": 4,
         "fecha_prestamo": "2024-06-22",
         "costo": 0.0,
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-06-26",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 4,
@@ -29,7 +35,9 @@
         "id_libro": 2,
         "fecha_prestamo": "2024-06-7",
         "costo": 0.0,
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-06-7",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 5,
@@ -37,7 +45,9 @@
         "id_libro": 3,
         "fecha_prestamo": "2024-06-12",
         "costo": 0.0,
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-06-15",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 6,
@@ -45,7 +55,9 @@
         "id_libro": 3,
         "fecha_prestamo": "2024-06-04",
         "costo": 0.0,
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-06-08",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 7,
@@ -53,7 +65,9 @@
         "id_libro": 5,
         "fecha_prestamo": "2024-06-22",
         "costo": 0.0,
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-06-25",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 8,
@@ -61,7 +75,9 @@
         "id_libro": 2,
         "fecha_prestamo": "2024-05-05",
         "costo": 0.0,
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-05-07",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 9,
@@ -69,8 +85,9 @@
         "id_libro": 3,
         "fecha_prestamo": "2024-12-03",
         "costo": 0.0,
-        "fecha_devolucion_prevista": "2024-12-10",
-        "fecha_devolucion": null
+        "fecha_devolucion_prevista": "2024-12-14",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     },
     {
         "id": 10,
@@ -79,7 +96,7 @@
         "fecha_prestamo": "2024-05-02",
         "costo": 0.0,
         "fecha_devolucion_prevista": "2024-05-09",
-        "fecha_devolucion": "2024-12-04"
+        "fecha_devolucion": "En curso"
     },
     {
         "id": 11,
@@ -120,5 +137,25 @@
         "fecha_devolucion_prevista": "2024-06-06",
         "fecha_devolucion": "2024-07-06",
         "estado_prestamo": "Devuelto"
+    },
+    {
+        "id": 15,
+        "id_socio": 4,
+        "id_libro": 11,
+        "fecha_prestamo": "2024-06-02",
+        "costo": 0.0,
+        "fecha_devolucion_prevista": "2024-06-09",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
+    },
+    {
+        "id": 16,
+        "id_socio": 13,
+        "id_libro": 16,
+        "fecha_prestamo": "2024-06-20",
+        "costo": 0.0,
+        "fecha_devolucion_prevista": "2024-06-27",
+        "fecha_devolucion": null,
+        "estado_prestamo": "En Curso"
     }
 ]

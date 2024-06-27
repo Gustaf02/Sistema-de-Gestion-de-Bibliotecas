@@ -96,7 +96,7 @@
         "editorial": "EUDEBA",
         "anio_publicacion": "1985",
         "genero": "Dialogo",
-        "cantidad_disponible": 2
+        "cantidad_disponible": 1
     },
     {
         "id": 12,
@@ -109,9 +109,9 @@
     },
     {
         "id": 14,
-        "titulo": "El Principito ",
+        "titulo": "El Principito",
         "autor": "Antoine De Saint - Exupery",
-        "editorial": "El gato de Hojalata",
+        "editorial": "El gato de Holalata",
         "anio_publicacion": "2017",
         "genero": "Narrativo",
         "cantidad_disponible": 3
@@ -124,5 +124,14 @@
         "anio_publicacion": "2009",
         "genero": "Narrativa Moderna",
         "cantidad_disponible": 4
+    },
+    {
+        "id": 16,
+        "titulo": "Platero y yo",
+        "autor": "Juan Ramon Jimenez",
+        "editorial": "Editorial Alianza",
+        "anio_publicacion": "1981",
+        "genero": "Narrativo",
+        "cantidad_disponible": 6
     }
 ]

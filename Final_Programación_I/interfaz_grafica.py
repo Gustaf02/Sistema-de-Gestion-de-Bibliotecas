@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from libro import registrar_libro, buscar_libro_por_termino
 
-"""PROGRAMADORES: ISRAEL LEONARDO MONTIEL-  CARLOS GUSTAVO ORTIZ"""
+"""PROGRAMADORES: ISRAEL LEONARDO MONTIEL- CARLOS GUSTAVO ORTIZ"""
 
 # Función para manejar el registro de un nuevo libro desde la interfaz gráfica
 def registrar():
@@ -38,14 +38,17 @@ def buscar():
 root = tk.Tk()
 root.title("Sistema de Gestión de Biblioteca")
 
+# Configurar el color de fondo de la ventana
+root.config(bg="#FFFFE0")  # Amarillo claro
+
 # Sección de registro de libros
-tk.Label(root, text="Registrar Libro").grid(row=0, column=0, columnspan=2)
-tk.Label(root, text="Título").grid(row=1, column=0)
-tk.Label(root, text="Autor").grid(row=2, column=0)
-tk.Label(root, text="Editorial").grid(row=3, column=0)
-tk.Label(root, text="Año de Publicación").grid(row=4, column=0)
-tk.Label(root, text="Género").grid(row=5, column=0)
-tk.Label(root, text="Cantidad Disponible").grid(row=6, column=0)
+tk.Label(root, text="Registrar Libro", bg="#FFFFE0", font=("Arial", 14)).grid(row=0, column=0, columnspan=2, pady=10)
+tk.Label(root, text="Título", bg="#FFFFE0").grid(row=1, column=0, sticky=tk.W)
+tk.Label(root, text="Autor", bg="#FFFFE0").grid(row=2, column=0, sticky=tk.W)
+tk.Label(root, text="Editorial", bg="#FFFFE0").grid(row=3, column=0, sticky=tk.W)
+tk.Label(root, text="Año de Publicación", bg="#FFFFE0").grid(row=4, column=0, sticky=tk.W)
+tk.Label(root, text="Género", bg="#FFFFE0").grid(row=5, column=0, sticky=tk.W)
+tk.Label(root, text="Cantidad Disponible", bg="#FFFFE0").grid(row=6, column=0, sticky=tk.W)
 
 # Campos de entrada para el registro de libros
 entry_titulo_reg = tk.Entry(root)
@@ -55,27 +58,26 @@ entry_anio_reg = tk.Entry(root)
 entry_genero_reg = tk.Entry(root)
 entry_cantidad_reg = tk.Entry(root)
 
-entry_titulo_reg.grid(row=1, column=1)
-entry_autor_reg.grid(row=2, column=1)
-entry_editorial_reg.grid(row=3, column=1)
-entry_anio_reg.grid(row=4, column=1)
-entry_genero_reg.grid(row=5, column=1)
-entry_cantidad_reg.grid(row=6, column=1)
+entry_titulo_reg.grid(row=1, column=1, padx=10, pady=2)
+entry_autor_reg.grid(row=2, column=1, padx=10, pady=2)
+entry_editorial_reg.grid(row=3, column=1, padx=10, pady=2)
+entry_anio_reg.grid(row=4, column=1, padx=10, pady=2)
+entry_genero_reg.grid(row=5, column=1, padx=10, pady=2)
+entry_cantidad_reg.grid(row=6, column=1, padx=10, pady=2)
 
 # Botón para registrar el libro
-tk.Button(root, text='Registrar', command=registrar).grid(row=7, column=1, pady=4)
+tk.Button(root, text='Registrar', command=registrar, bg="green", fg="white").grid(row=7, column=1, pady=10)
 
 # Sección de búsqueda de libros
-tk.Label(root, text="Buscar Libro").grid(row=0, column=2, columnspan=2)
-tk.Label(root, text="Término de Búsqueda").grid(row=1, column=2)
+tk.Label(root, text="Buscar Libro", bg="#FFFFE0", font=("Arial", 14)).grid(row=0, column=2, columnspan=2, pady=10)
+tk.Label(root, text="Término de Búsqueda", bg="#FFFFE0").grid(row=1, column=2, sticky=tk.W)
 
 # Campo de entrada para el término de búsqueda
 entry_termino_bus = tk.Entry(root)
-entry_termino_bus.grid(row=1, column=3)
+entry_termino_bus.grid(row=1, column=3, padx=10, pady=2)
 
 # Botón para buscar el libro
-tk.Button(root, text='Buscar', command=buscar).grid(row=2, column=3, pady=4)
+tk.Button(root, text='Buscar', command=buscar, bg="blue", fg="white").grid(row=2, column=3, pady=10)
 
 # Iniciar el bucle principal de la interfaz gráfica
 root.mainloop()
-

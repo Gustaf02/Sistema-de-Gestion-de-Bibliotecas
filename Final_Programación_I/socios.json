@@ -108,5 +108,25 @@
         "email": "aa@gmail.com",
         "direccion": "Los Alerces 154",
         "fecha_nacimiento": "2001-02-12"
+    },
+    {
+        "id": 12,
+        "nombre": "Ana",
+        "apellido": "Da Silva",
+        "dni": "23456789",
+        "telefono": "4433245",
+        "email": "ads@gmail.com",
+        "direccion": "Gladiolos 954",
+        "fecha_nacimiento": "2000-11-23"
+    },
+    {
+        "id": 13,
+        "nombre": "Carlos",
+        "apellido": "Diaz",
+        "dni": "23456784",
+        "telefono": "4848596",
+        "email": "cd@gmail.com",
+        "direccion": "Los Alerces 987",
+        "fecha_nacimiento": "2000-12-05"
     }
 ]
