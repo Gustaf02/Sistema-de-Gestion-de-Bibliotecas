@@ -39,13 +39,7 @@ El proyecto está organizado en varios módulos, cada uno de los cuales se encar
 * Interfaz Gráfica del Usuario (GUI): Proporcionada por interfaz_grafica.py, esta interfaz permite a los usuarios interactuar con el sistema de manera más intuitiva, facilitando la realización de las operaciones disponibles en el sistema.
   
 ## 4. Descripción Técnica del Proyecto
-El proyecto está desarrollado en Python y utiliza archivos JSON para almacenar los datos de libros, socios y préstamos. Las principales operaciones de lectura y escritura en archivos JSON están encapsuladas en funciones auxiliares en el archivo func_aux.py. Esto asegura una gestión eficiente y segura de los datos, facilitando su manipulación y manteniendo la integridad de la información.
-
-Ejemplo, de función auxiliar:
-
-![image](https://github.com/Gustaf02/Sistema-de-Gestion-de-Bibliotecas/assets/92409193/dba8ad21-070b-4324-b2bd-5fe262e55af5)
-
-Estas funciones permiten cargar y guardar datos de manera eficiente y segura, asegurando que los archivos se manejen correctamente.
+El proyecto está desarrollado en Python y utiliza archivos JSON para almacenar los datos de libros, socios y préstamos. Las principales operaciones de lectura y escritura en archivos JSON están encapsuladas en funciones auxiliares en el archivo func_aux.py. Esto asegura una gestión eficiente y segura de los datos, lo cual facilita su manipulación y manteniendo la integridad de la información.
 
 ## 5. Video
 
